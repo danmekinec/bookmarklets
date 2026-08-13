@@ -1,4 +1,4 @@
-# bookmarklets
+# Bookmarklets
 
 Small browser bookmarklets for SEO and web workflows.
 
