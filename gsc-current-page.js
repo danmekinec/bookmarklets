@@ -1,1 +1,13 @@
-javascript:(function () {  const domain = window.location.hostname;  const page = window.location.href;  const url =    'https://search.google.com/search-console/performance/search-analytics' +    '?resource_id=%27 + encodeURIComponent(%27sc-domain:%27 + domain) +    %27&page=%27 + encodeURIComponent(page);  window.open(url, %27_blank%27);})();
+javascript:(function () {
+  const domain = window.location.hostname;
+  const page = window.location.href;
+
+  const url =
+    'https://search.google.com/search-console/performance/search-analytics' +
+    '?resource_id=' +
+    encodeURIComponent('sc-domain:' + domain) +
+    '&page=' +
+    encodeURIComponent(page);
+
+  window.open(url, '_blank');
+})();
