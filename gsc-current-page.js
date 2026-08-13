@@ -6,7 +6,7 @@ javascript:(function () {
     'https://search.google.com/search-console/performance/search-analytics' +
     '?resource_id=' +
     encodeURIComponent('sc-domain:' + domain) +
-    '&page=' +
+    '&page=!' +
     encodeURIComponent(page);
 
   window.open(url, '_blank');
